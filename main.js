@@ -33,11 +33,13 @@ for(let i=0; i<3; i++){
     const liElementi = document.createElement('li')
     unLi.appendChild(liElementi)
     liElementi.innerText = 'neki tekst'
+
     console.log(liElementi)
 
     for(let i=0; i<liElementi.length; i++) {
         const aTagovi = document.createElement('a')
         liElementi.appendChild(aTagovi)
+        
         console.log(aTagovi)
     }
 }
